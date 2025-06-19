@@ -1,12 +1,55 @@
-# React + Vite
+# 📝 TodoApp (React + useReducer)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Este es un proyecto simple de lista de tareas (TODO) desarrollado con **React** y el hook `useReducer`.
 
-Currently, two official plugins are available:
+## 🚀 Características
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Agregar nuevas tareas
+- Marcar tareas como completadas
+- Eliminar tareas
+- Persistencia en `localStorage`
 
-## Expanding the ESLint configuration
+## 🧪 Tecnologías usadas
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- React
+- JavaScript
+- useReducer
+- Bootstrap (opcional para estilos)
+- localStorage (para persistencia de datos)
+
+## 🖥️ Vista previa
+
+![TodoApp Screenshot](https://via.placeholder.com/600x300?text=Captura+de+Tu+App)
+
+## 🔧 Instalación
+
+1. Clona este repositorio:
+```bash
+git clone https://github.com/mfrb15/toDoApp.git
+Instala las dependencias:
+
+bash
+Copiar
+Editar
+npm install
+Ejecuta el proyecto:
+
+bash
+Copiar
+Editar
+npm run dev
+Asegúrate de tener Node.js y Vite (si usas Vite) correctamente instalados.
+
+📂 Estructura del proyecto
+css
+Copiar
+Editar
+📁 src
+ ┣ 📁 components
+ ┃ ┣ 📄 TodoList.jsx
+ ┃ ┣ 📄 TodoItem.jsx
+ ┃ ┗ 📄 TodoAdd.jsx
+ ┣ 📄 todoReducer.js
+ ┗ 📄 TodoApp.jsx
+🤝 Contribuciones
+¡Las contribuciones son bienvenidas! Puedes abrir issues o hacer pull requests para sugerencias y mejoras.
