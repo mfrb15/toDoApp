@@ -1,7 +1,9 @@
 import React from 'react';
 import ReactDom from 'react-dom/client';
 import './index.css'
-import { TodoApp } from './08-useReducer/TodoApp';
+// import { TodoApp } from './08-useReducer/TodoApp';
+import { MainApp } from './09-useContext/MainApp';
+import { BrowserRouter } from 'react-router-dom';
 // import { Padre } from './07-tarea-memo/Padre';
 // import './08-useReducer/intro-reduce';
 
@@ -16,9 +18,18 @@ import { TodoApp } from './08-useReducer/TodoApp';
 // import { Memorize } from './0import { CallbackHook } from './06-memos/CallbackHook';
 
 ReactDom.createRoot(document.getElementById('root')).render(
+    <BrowserRouter>
+        {/* <React.StrictMode> */}
+            <MainApp />
+        {/* </React.StrictMode> */}
+    </BrowserRouter>
 
-<TodoApp/>
-    // <FormWithCustomHook />
+
+
+
+
+
+    // <FormWithCusto mHook />
     //    < FocusScreen/>
     // <Layout />
     // <Padre />
